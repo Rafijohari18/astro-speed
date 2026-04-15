@@ -6,6 +6,6 @@ export default defineConfig({
   compressHTML: true,
   integrations: [preact()],
   build: {
-    inlineStylesheets: 'auto',
+    inlineStylesheets: 'always',
   },
 });
