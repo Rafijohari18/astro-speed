@@ -38,7 +38,9 @@ body {
 
 a {
   color: var(--accent-light);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
   transition: color var(--transition);
 }
 

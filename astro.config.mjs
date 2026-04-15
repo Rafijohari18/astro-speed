@@ -1,5 +1,8 @@
 import { defineConfig } from 'astro/config';
 import preact from '@astrojs/preact';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default defineConfig({
   output: 'static',
@@ -9,3 +12,4 @@ export default defineConfig({
     inlineStylesheets: 'always',
   },
 });
+
