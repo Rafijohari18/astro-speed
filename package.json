@@ -1,0 +1,15 @@
+{
+  "name": "astro-speed-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.1.3",
+    "astro": "^4.16.19",
+    "preact": "^10.29.1"
+  }
+}
